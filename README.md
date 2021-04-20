@@ -1,7 +1,7 @@
 # jobguy-data-fetch
 Fetch jobguy data using python with the JobGuy's public api.
 
-#What is this?
+# What is this?
 It's a python script that will get data for companies on jobguy.ir that includes:
 - Copmany info
 - Reviews from former employees with related comments
@@ -24,10 +24,10 @@ For fetching reviews, interviews and comments for each company, you can pass the
 `python companyReview.py -company alibaba`
 This will generate a directory named `alibaba` under data directory at the root of the script.
 
-### What's Next
+## What's Next
 This repository will update soon to support all the jobguy's public api. But it will be useless after the shutdown. Hurry up if you want any data from it!
 
-### Disclaimer
+## Disclaimer
 The Author of this software is not responsible for the data or any other information this software will generates.
 
 
