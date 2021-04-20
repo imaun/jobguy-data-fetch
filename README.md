@@ -11,17 +11,23 @@ I wrote this script because jobguy.ir will shutdown very soon. I did not include
 
 # How to use
 First clone this repository from CLI:
-`git clone https://github.com/imaun/jobguy-data-fetch.git`
+```console
+git clone https://github.com/imaun/jobguy-data-fetch.git
+```
 You must have python installed in order to run blow scripts.
 
 ## Get All Companies
 For generating the list of all companies run :
-`python companyApi.py`
+```console
+python companyApi.py
+```
 This will tries to get all of the companies on jobguy page by page, the limit of the pagination size is 50 I think. In the CLI you will see that the program will report which page is being fetched, if by any chance the program stucked at any page, you can set the `index` variable in the source by hand to the last page number that faced exception. At the end, all of the companies will be in a file named `companies.json`.
 
 ## Get specefic Company data
 For fetching reviews, interviews and comments for each company, you can pass the name of that company to `companyReviews.py` script. For example if you want to get AliBaba company's data, from CLI run :
-`python companyReview.py -company alibaba`
+```console
+python companyReview.py -company alibaba
+```
 This will generate a directory named `alibaba` under data directory at the root of the script.
 
 ## What's Next
