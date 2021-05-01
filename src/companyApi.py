@@ -10,7 +10,7 @@ def jprint(obj):
     print(text)
 
 print("Starting...")
-index = 1287
+index = 1
 apiUrl = 'http://api.jobguy.ir/public/company/list/?size=50&index=' + str(index) + '&order_by=HOTTEST'
 print("Fetching page " + str(index))
 res = requests.get(apiUrl)
